@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body background="C:\Users\ajinkyaja\Desktop\wall.jpg">
+
+<style>
+
+	table{
+
+border-collapse: collapse;
+margin: auto;
+margin-top: 15%;
+
+}
+
+td{
+border-collapse: collapse;
+margin: auto;
+margin-top: 15%;
+padding: 5px;
+}
+	
+
+</style>
+
+
+
+<form method='get' action='InsertReviewServlet'>
+		
+		
+	<table style="width:25%" >
+	
+	<tr><td><h2>Review Book</h2></td></tr>
+
+<tr>
+<td> <font style="font-weight: bold;"> Enter the book Id :  </font> </td>  <td><input type='text' name='rbookid'></td>
+ </tr>
+ 
+ <tr>
+ <td> <font style="font-weight: bold;">Enter the review : </td>  <td><textarea rows='4' cols='15' name='review'></textarea></td>
+ </tr>
+
+
+<tr>
+<td></td>
+
+<td >
+ <input type='submit' value='Add Review'></td> 
+  </tr>
+  
+  </table>
+  
+ </form>
+</body>
+</html>
